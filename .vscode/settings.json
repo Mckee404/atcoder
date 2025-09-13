@@ -1,0 +1,16 @@
+{
+	// code-runner ctrl+option+n
+	"code-runner.runInTerminal": true,
+	"code-runner.executorMap": {
+		"cpp": "cd $dir && g++ -std=c++20 -I . -g $fileName -o $fileNameWithoutExt && ./$fileNameWithoutExt"
+	},
+	"files.exclude": {
+		"**/main": true,
+		"**/main.dSYM": true,
+		"**/bin": true,
+		"**/obj": true,
+		"**/**.csproj": true
+	},
+	"files.autoSave": "afterDelay",
+	"files.autoSaveDelay": 200 // ms
+}
